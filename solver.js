@@ -19,33 +19,6 @@ function getFeasiblePlacements(openBoard, piece, openCells) {
     return feasiblePlacements
 }
 
-function * iteratePlacements(board, piece, openCells){
-    for(const orientation of piece.orientations) {
-        for (let i = 0; i < board.cells.length; i++) {
-            for (let j = 0; j < board.cells[i].length; j++) {
-                if (board.canPlace(orientation, i, j, openCells)) {
-                    yield {
-                        piece,
-                        orientation,
-                        i,
-                        j
-                    }
-                }
-            }
-        }
-    }
-}
-
-function tryPlace(pieces, openCells) {
-    let numPlaced = 0
-    const board = new Board()
-    for (const piece of pieces) {
-        const placements = iteratePlacements(board, piece, openCells)
-        board.place(orientation, i, j)
-        numPlaced++
-    }
-    return numPlaced === pieces.length ? board : null
-}
 /**
  * 
  * @param {{piece: Piece, orientation: PieceOrientation, i: number, j: number}[]} placedPieces 
