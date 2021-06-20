@@ -21,8 +21,7 @@ function getFeasiblePlacements(openBoard, piece, openCells) {
 
 /**
  * 
- * @param {{piece: Piece, orientation: PieceOrientation, i: number, j: number}[]} placedPieces 
- * @param {{piece: Piece, orientation: PieceOrientation, i: number, j: number}[]} myFeasiblePlacements 
+ * @param {{piece: Piece, orientation: PieceOrientation, i: number, j: number}[]} placedPieces
  * @param {{piece: Piece, orientation: PieceOrientation, i: number, j: number}[][]} placementsRequired 
  */
 function findNonOverlappingPlacements(placedPieces, placementsRequired) {
