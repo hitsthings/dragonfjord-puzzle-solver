@@ -34,3 +34,4 @@ Enjoy!
 
 Copyright 2021, Adam Ahmed
 Licensed for use under GNU General Public License - See http://www.gnu.org/licenses/gpl.html
+I have no affiliation with Dragonfjord, just enjoyed their puzzle.
