@@ -1,10 +1,11 @@
 {
   "name": "dragonfjord-puzzlesolver",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.3",
+  "description": "Solve the daily puzzle by Dragonfjord",
   "type":"module",
   "bin": {
-    "dragonfjord-solve":"cli.js"
+    "dragonfjord-solve":"./cli.js",
+    "dragonfjord-puzzlesolver":"./cli.js"
   },
   "main": "index.js",
   "scripts": {
