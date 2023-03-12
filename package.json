@@ -1,9 +1,11 @@
 {
   "name": "dragonfjord-puzzlesolver",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "type":"module",
-  "bin": "cli.js",
+  "bin": {
+    "dragonfjord-solve":"cli.js"
+  },
   "main": "index.js",
   "scripts": {
     "start":"node cli.js",

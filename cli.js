@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { display } from "./printer.js"
 import { solve } from "./solver.js"
 
