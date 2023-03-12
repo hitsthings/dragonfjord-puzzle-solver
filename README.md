@@ -2,7 +2,7 @@
 
 I just bought [this awesome puzzle](https://www.dragonfjord.com/product/a-puzzle-a-day/) and have been enjoying it along with my sons.
 
-Some days are easy, but other days can be extremely hard to solve! As a fun project with the kids and an escape hatch when we need one, together we wrote this command-line solver. Requires Node 16 and will only give you the answer for today, but that's easily tweaked in code.
+Some days are easy, but other days can be extremely hard to solve! As a fun project with the kids and an escape hatch when we need one, together we wrote this command-line solver. Requires Node 16.
 
 ## Usage
 
@@ -27,6 +27,8 @@ After a few seconds you'll get some ASCII art like:
 ║           ║     ║
 ╚═══════════╩═════╝
 ```
+
+If you want to specify a different day, use `node cli.js 23/12` (or whatever DD/MM you want to solve for).
 
 Enjoy!
 
